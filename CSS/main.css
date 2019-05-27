@@ -103,3 +103,8 @@ footer{
     height: 200px;
     background-color: var(--donkerBlauw);
     }
+#inputVraag, #inputEmail{
+    border: 2px solid var(--lichtBlauw);
+    border-radius: 10px;
+    height: 20px;
+}
