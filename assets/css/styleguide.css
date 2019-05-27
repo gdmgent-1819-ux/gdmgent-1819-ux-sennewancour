@@ -1,3 +1,13 @@
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+}
+.label{
+    font-size: 14pt;
+    margin: 10px 0px;
+}
 .sg-title {
     font-size: 1.7rem;
     font-weight: 400;
@@ -14,4 +24,65 @@
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+/*kleuren*/
+.color{
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+}
+.darkBlue{
+    background-color: #317A99;
+}
+.lightBlue{
+    background-color: #4390CB;
+}
+.green{
+    background-color: #43CB79;
+}
+
+/*typografie*/
+#navFont{
+    font-size:25pt;
+    font-family: Bahnschrift;
+    color: white;
+}
+#navFontActive{
+    font-size:25pt;
+    font-family: Bahnschrift;
+    color: #43CB79;
+}
+#header2{
+   font-size: 50px;
+   font-family: Bahnschrift; 
+   color: white;
+}
+#header3{
+    font-size: 35px;
+    font-family: Bahnschrift; 
+    color: white;
+ }
+ #headersFooter{
+    font-size: 25px;
+    font-family: Bahnschrift; 
+    color: white;
+ }
+ #footerFont{
+    font-size: 20px;
+    font-family: Bahnschrift; 
+    color: white;
+ }
+
+ /*formulier*/
+ #inputVraag{
+    border: 2px solid var(--lichtBlauw);
+    border-radius: 10px;
+    height: 20px;
+    background-color: white;
+}
+
+/*componenten*/
+#tussenlijn{
+    height: 10px;
+    background-color: var(--lichtBlauw);
 }
