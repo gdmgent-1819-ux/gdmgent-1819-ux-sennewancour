@@ -7,3 +7,171 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+:root{
+    --donkerBlauw: #317A99;
+    --lichtBlauw: #4390CB;
+    --groen: #43CB79;
+    --wit: #ffffff;
+    --letters: Bahnschrift;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+header{
+    width: 100%;
+    padding: 25px 0;
+    background-color: var(--donkerBlauw);
+    display: flex;
+    justify-content: center;
+}
+
+.hContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imgLogo{
+    width: 150px;
+    margin-top: 10px;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    font-size: 25pt;
+    font-family: var(--letters);
+}
+nav ul li{
+    margin-left: 30px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--wit);
+}
+#active{
+    color: var(--groen);
+}
+
+.tussenlijn{
+    height: 10px;
+    background-color: var(--lichtBlauw);
+}
+
+/*MAIN*/
+main{
+    width: 100%;
+}
+
+
+.imgDiv{
+    position: relative;
+    width: 100%;
+}
+.imgDiv h2 {
+    font-family: var(--letters);
+    font-size: 50px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    right: 0;
+    color: white;
+}
+.imgDiv h3 {
+    font-family: var(--letters);
+    font-size: 35px;
+    line-height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 50px 0;
+    border-top: 10px solid #4390cb;
+    border-bottom: 10px solid #4390cb;
+    text-align: center;
+}
+
+.imgDiv img {
+    display: block;
+    width: 100%;
+}
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: var(--donkerBlauw);
+    }
+
+.fContainer{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.col-sm{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+.col-sm h4{
+    color: white;
+    font-family: var(--letters);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.footerP{
+    color: white; 
+    font-family: var(--letters);
+    font-size: 20px;
+    line-height: 50px;
+}
+
+#symbols{
+    display: flex; 
+    justify-content: center;
+
+}
+
+#askForm{
+    color: white; 
+    font-family: var(--letters);
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.fab{
+    margin: 5px 5px;
+    color: white;
+    width: 40px;
+}
+
+#inputVraag, #inputEmail{
+    border: 2px solid var(--lichtBlauw);
+    border-radius: 10px;
+    height: 20px;
+}
